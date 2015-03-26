@@ -1,0 +1,59 @@
+Activity 2:
+
+1). The card is a seperate object, and deck relies upon the card
+
+2). 6
+
+3). ace, king, queen, jcak, 10, 9 , 8, 7, 6, 5, 4, 3, 2
+	spades, hearts, diamonds, clubs
+	11,10,10,10,10,9,8,7,6,5,4,3,2
+
+4). Yes, because each index corresponds with the same index in the other list
+
+
+Activity 3:
+1). 
+public String coinFlips(){
+	int s=(new Random()).nextInt();
+	if(s<=40){
+	return “tails”;
+}else{
+	return “heads”;
+}
+}
+
+2). ?
+
+3). 3, 2
+
+Activity 5:
+?
+
+Activity 6:
+
+
+Activity 7:
+
+1). A deck of cards.
+
+2). Have the player pick 3 cards. Check to see if the total of the cards added together is 11, if not game over, if it is go to the next turn.
+
+3). No, it has some unimplemented methods
+
+4). 	
+A). In the new game method as well as the constructor
+B). gameIsWon 
+	E). To check if the conditions are met for a winning game.
+
+Activity 8:
+	
+1). They are the same game, but you are trying to get the cards to add up to a different number, and the board is a different size
+
+2). The instance variables are passed down because Elevens Board is an extension of Board.
+
+
+Activity 9:
+
+1). Because it can be changed
+
+2). Because they would have to be implemented
